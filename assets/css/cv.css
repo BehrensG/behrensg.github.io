@@ -1,0 +1,162 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.project {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.project p {
+  padding: 0 1rem 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  margin : 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+.header p {
+  margin: 5px 0;
+  font-size: 1.2em;
+  color: #7f8c8d;
+}
+.section {
+  margin-bottom: 20px;
+}
+.section h2 {
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+}
+.section p {
+  margin: 10px 0;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.skills ul li {
+  background: #ecf0f1;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+.contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.skill-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+}
+.skill {
+    margin: 20px 0;
+}
+.skill-name {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.progress {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    position: relative;
+    height: 25px;
+    width: 100%;
+}
+.progress-bar {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+}
